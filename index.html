@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    #home {
+      min-height: 100vh;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      background-color: azure;
+    }
+    .profile-img {
+      max-width: 500px;
+    }
+    /* .skill-img{
+      max-width: 700px;
+    } */
+    #contact {
+      background-color: azure;
+    }
+    #skills {
+      background-color: azure;
+    }
+    .skill-container {
+      padding: 30px;
+    }
+    #education {
+      min-height: 100vh;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      background-color: azure;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">NIKHIL DURHAN PORTFOLIO</a>  
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#Education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#contact">Contact</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link active" href="#carousel">Carousel</a>
+        </li> -->
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="section text-center">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="text-left">
+        <h1>Hey! Nikhil here</h1>
+        <h5>
+          <p>
+            I'm Nikhil, a passionate Frontend Developer with experience in creating dynamic and responsive web applications. I specialize in HTML, CSS, JavaScript, and Bootstrap. I love bringing ideas to life in the browser and continuously learning new technologies to improve my skills.
+          </p>
+        </h5>
+        <a href="https://drive.google.com/file/d/1M8ho3jQl4eevKgL4_FizEeqw2BocZkqV/view?usp=drivesdk" Target="_blank" class="btn btn-primary mt-3" download>DOWNLOAD CV</a>
+        <a href="https://github.com/Nikhil-Durhan" Target="_blank" class="btn btn-primary mt-3">GitHub</a>
+        <a href="https://www.linkedin.com/in/nikhil037" Target="_blank" class="btn btn-primary mt-3">LinkedIn</a>
+      </div>
+      <div class="text-right">
+        <img src="nikki5.jpg" class="img-fluid profile-img" alt="Nikhil Durhan">
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="Education" class="section">
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Education</a>
+      </div>
+    </nav>
+    <div class="container p-5 my-5 bg-light d-flex flex-column align-items-center text-center text-black">
+      <h4>
+        <p>Recently completed my Masters in Computer science from</p>
+        <a href="https://mdu.ac.in/" type="button" Target="_blank" class="btn btn-secondary">Maharishi Dayanand University, Rohtak (Haryana)</a>
+      </h4>
+      <h4>
+        <p>An intern at Web Development.</p>
+      </h4>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section text-center">
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Skills</a>
+        </div>
+    </nav>
+    <div class="container d-flex align-items-center justify-content-between">
+        <div class="row w-100">
+            <div class="col-md-6 text-left">
+                <div class="skill-container">
+                    <h2>HTML</h2>
+                    <div class="progress" style="height:30px">
+                        <div class="progress-bar" style="width:90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-container">
+                    <h2>CSS</h2>
+                    <div class="progress" style="height:30px">
+                        <div class="progress-bar" style="width:90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-container">
+                    <h2>JavaScript</h2>
+                    <div class="progress" style="height:30px">
+                        <div class="progress-bar" style="width:50%;"></div>
+                    </div>
+                </div>
+                <div class="skill-container">
+                    <h2>Bootstrap</h2>
+                    <div class="progress" style="height:30px">
+                        <div class="progress-bar" style="width:80%;"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-md-6 text-right">
+                <img src="bg4.jpg" class="img-fluid skill-img" alt="skill">
+            </div>  -->
+        </div>
+    </div>
+</section>
+
+<!-- <section id="carousel-section" class="py-5">
+  <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">carousel</a>
+    </div>
+</nav>
+  <div class="container">
+    <h2 class="text-center mb-4">My Images</h2>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="me1.jpg" class="d-block w-100" alt="First Slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First Slide Title</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="me2.jpeg" class="d-block w-100" alt="Second Slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second Slide Title</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="me3.png" class="d-block w-100" alt="Third Slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third Slide Title</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section> -->
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Contact</a>
+      </div>
+    </nav>
+    <div class="container p-5 my-5 text-white d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+      <div class="w-50">
+        <h2 class="text-center text-dark">Contact me here</h2>
+        <form id="contactForm">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="NAME" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="EMAIL" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" placeholder="YOUR MESSAGE" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+        <div id="thankYouMessage" class="mt-3 text-center" style="display: none;">Thank you for contacting us!</div>
+      </div>
+    </div>
+  </section>
+  
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      document.getElementById('thankYouMessage').style.display = 'block';
+    });
+  </script>
+  
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
